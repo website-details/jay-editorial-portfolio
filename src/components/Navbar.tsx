@@ -39,12 +39,6 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
-          <a
-            href="#contact"
-            className="ml-2 px-5 py-2 text-sm font-medium border border-ink text-ink rounded-sm hover:bg-ink hover:text-cream transition-all duration-300"
-          >
-            Hire Me
-          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -72,13 +66,6 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
-          <a
-            href="#contact"
-            onClick={() => setMobileOpen(false)}
-            className="inline-block px-5 py-2 text-sm font-medium border border-ink text-ink rounded-sm hover:bg-ink hover:text-cream transition-all"
-          >
-            Hire Me
-          </a>
         </div>
       )}
     </nav>
